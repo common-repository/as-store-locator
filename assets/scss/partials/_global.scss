@@ -1,0 +1,20 @@
+/*
+ * Copyright (c) 2016. Developed by Alfio Salanitri | Web: www.alfiosalanitri.it | Support: dev@alfiosalanitri.it
+ */
+
+#assl-store-locator-container {
+  font-family: sans-serif;
+  a {
+    text-decoration: none;
+    box-shadow: none;
+  }
+  #assl-gmap-container {
+    position: relative;
+    overflow: hidden;
+    fieldset {
+      border: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+}

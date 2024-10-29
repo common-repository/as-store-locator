@@ -1,0 +1,62 @@
+/*
+ * Copyright (c) 2016. Developed by Alfio Salanitri | Web: www.alfiosalanitri.it | Support: dev@alfiosalanitri.it
+ */
+@media all and (max-width: 414px) {
+  #assl-store-locator-container .assl-top-bar .list-inline li a span
+  {
+    display: none;
+  }
+  #assl-gmap
+  {
+    height: 250px;
+  }
+}
+
+@media all and (min-width: 415px) {
+  #assl-store-locator-container .assl-top-bar .list-inline li a span
+  {
+    display: inline-block;
+  }
+  #assl-gmap {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #direction-close
+  {
+    display: block;
+    width: 100%;
+    position: relative;
+    right: 0;
+  }
+  #assl-gmap.resized
+  {
+    width: 100%;
+  }
+  #assl-store-locator-container #assl-gmap-container #direction-panel
+  {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+  }
+}
+@media all and (min-width: 769px) {
+  #assl-store-locator-container #assl-gmap-container #direction-panel
+  {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    padding: 5px;
+  }
+  #direction-close
+  {
+    width: 40px;
+    position: absolute;
+    right: 40%;
+  }
+  #assl-gmap.resized {
+    width: 60%;
+  }
+}

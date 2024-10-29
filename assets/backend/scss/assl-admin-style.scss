@@ -1,0 +1,70 @@
+#assl_metabox_geolocalizzazione_text {
+  .assl_title_geo {
+    background-color: lightgray;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  label {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #666;
+  }
+  input {
+    -webkit-appearance: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 5px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-bottom: 1px dotted #666;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    &:hover {
+      border-bottom: 1px dotted #61b5e3;
+    }
+  }
+  .type_address {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+#assl-admin-message {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.assl_tag_error {
+  border: 1px solid red !important;
+}
+.assl-intro-wrapper {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  h1 {
+    text-transform: uppercase;
+  }
+}
+.assl-intro-settings {
+  padding: 10px;
+  background-color: #e5e5e5;
+  h4 {
+    background-color: #f9f9f9;
+    padding: 30px;
+    display: table;
+  }
+  code {
+    background-color: #AED4FB !important;
+    padding: 5px;
+  }
+}
+.assl-tab-wrapper {
+  .to-save {
+    background-color: #ef5350;
+    color: white;
+    span {
+      color: black;
+    }
+  }
+}

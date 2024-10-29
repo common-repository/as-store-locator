@@ -1,0 +1,1453 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: as-store-locator\n"
+"POT-Creation-Date: 2017-07-12 11:41+0100\n"
+"PO-Revision-Date: 2017-07-12 11:41+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alfio Salanitri <dev@alfiosalanitri.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: Core/Admin/Dep/Api.php:362
+msgid "Choose File"
+msgstr "Scegli un file"
+
+#: Core/Admin/Dep/Api.php:477 Core/Admin/Start.php:164
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: Core/Admin/Dep/Api.php:479
+msgid ""
+"<b>How to use: </b>Add <code>[store_locator]</code> on a new line to the "
+"content of your post or page"
+msgstr ""
+"<b>Come si usa: </b>Aggiungi lo shortcode <code>[store_locator]</code> in un "
+"nuovo post o pagina"
+
+#: Core/Admin/Dep/Api.php:496
+msgid "Not yet saved."
+msgstr "Non ancora salvata."
+
+#: Core/Admin/Dep/Api.php:522 Core/Admin/Dep/Api.php:532
+msgid "Save this tab"
+msgstr "Salva questa scheda"
+
+#: Core/Admin/Dep/Settings.php:36
+msgid "Layout Settings"
+msgstr "Impostazioni Layout"
+
+#: Core/Admin/Dep/Settings.php:40
+msgid "Map Settings"
+msgstr "Impostazioni Mappa"
+
+#: Core/Admin/Dep/Settings.php:44
+msgid "Advanced Settings"
+msgstr "Impostazioni Avanzate"
+
+#: Core/Admin/Dep/Settings.php:53
+msgid "Colors"
+msgstr "Colori"
+
+#: Core/Admin/Dep/Settings.php:58
+msgid "Top Bar Background Color"
+msgstr "Colore Sfondo Top Bar"
+
+#: Core/Admin/Dep/Settings.php:65
+msgid "Icons Color"
+msgstr "Colore Icone"
+
+#: Core/Admin/Dep/Settings.php:72
+msgid "Icons Hover Color"
+msgstr "Colore Icone Hover"
+
+#: Core/Admin/Dep/Settings.php:79
+msgid "Title Color"
+msgstr "Colore Titolo"
+
+#: Core/Admin/Dep/Settings.php:86 Core/Admin/Dep/Settings.php:355
+msgid "Text Color"
+msgstr "Colore Testo"
+
+#: Core/Admin/Dep/Settings.php:93
+msgid "Footer Bar Background Color"
+msgstr "Colore Sfondo Footer Bar"
+
+#: Core/Admin/Dep/Settings.php:100
+msgid "Footer Bar Text Color"
+msgstr "Colore Testo Footer Bar"
+
+#: Core/Admin/Dep/Settings.php:108
+msgid "Footer"
+msgstr "Footer"
+
+#: Core/Admin/Dep/Settings.php:113
+msgid "Enable / Disable Footer Text"
+msgstr "Abilita / Disabilita il testo nel footer"
+
+#: Core/Admin/Dep/Settings.php:124
+msgid "Footer Text"
+msgstr "Testo Footer"
+
+#: Core/Admin/Dep/Settings.php:125
+msgid "Custom footer text (default: blog title)"
+msgstr "Testo footer custom  (default titolo del blog)"
+
+#: Core/Admin/Dep/Settings.php:133
+msgid "Unit of Measurement"
+msgstr "Unità di Misura"
+
+#: Core/Admin/Dep/Settings.php:134
+msgid "Choose unit"
+msgstr "Scegli unità"
+
+#: Core/Admin/Dep/Settings.php:145
+msgid "Fallback GeoLocation"
+msgstr "Geolocalizzazione di default"
+
+#: Core/Admin/Dep/Settings.php:150 Core/Admin/Metabox/Geolocation.php:187
+#: Core/Admin/Metabox/Geolocation.php:188
+msgid "Latitude"
+msgstr "Latitudine"
+
+#: Core/Admin/Dep/Settings.php:151 Core/Admin/Dep/Settings.php:158
+msgid "If the visitors browser doesn't support the Geolocation."
+msgstr "Se il browser non supporta la geolocalizzazione"
+
+#: Core/Admin/Dep/Settings.php:157 Core/Admin/Metabox/Geolocation.php:193
+#: Core/Admin/Metabox/Geolocation.php:194
+msgid "Longitude"
+msgstr "Longitudine"
+
+#: Core/Admin/Dep/Settings.php:165
+msgid "Marker Image"
+msgstr "Immagine Marker"
+
+#: Core/Admin/Dep/Settings.php:170
+msgid "PIN WIDTH SIZE"
+msgstr "DIMENSIONE LARGHEZZA PIN"
+
+#: Core/Admin/Dep/Settings.php:171
+msgid "Set the width to half the size of your image file."
+msgstr "Imposta la larghezza a metà della dimensione reale del file."
+
+#: Core/Admin/Dep/Settings.php:177
+msgid "PIN HEIGHT SIZE"
+msgstr "DIMENSIONE ALTEZZA PIN"
+
+#: Core/Admin/Dep/Settings.php:178
+msgid "Set the height to half the size of your image file."
+msgstr "Imposta l'altezza a metà della dimensione reale del file."
+
+#: Core/Admin/Dep/Settings.php:184
+msgid "User Marker Icon"
+msgstr "Icona Marker Utente"
+
+#: Core/Admin/Dep/Settings.php:185 Core/Admin/Dep/Settings.php:191
+msgid ""
+"Retina Support: This image will need to be twice as large as the size of "
+"\"PIN WIDTH SIZE and PIN HEIGHT SIZE\" option."
+msgstr ""
+"Supporto Retina: Questa immagine dovrà essere grande il doppio della "
+"dimensione impostata nell'opzione \"DIMENSIONE LARGHEZZA PIN e DIMENSIONE "
+"ALTEZZA PIN\"."
+
+#: Core/Admin/Dep/Settings.php:190
+msgid "Category Marker Icon "
+msgstr "Icona Marker Categoria"
+
+#: Core/Admin/Dep/Settings.php:197
+msgid "Map Controls"
+msgstr "Controlli Mappa"
+
+#: Core/Admin/Dep/Settings.php:202
+msgid "Default UI"
+msgstr "Default UI"
+
+#: Core/Admin/Dep/Settings.php:203
+msgid "enables/disables the map controls"
+msgstr "abilita/disabilita i controlli della mappa"
+
+#: Core/Admin/Dep/Settings.php:213
+msgid "Map Type Control"
+msgstr "Controllo Tipo Mappa"
+
+#: Core/Admin/Dep/Settings.php:214
+msgid ""
+"enables/disables the Map Type control that lets the user toggle between map "
+"types (such as Map and Satellite)"
+msgstr ""
+"attiva/disattiva il controllo tipo di mappa che permette di passare dalla "
+"vista mappa a quella satellite"
+
+#: Core/Admin/Dep/Settings.php:224
+msgid "Street View"
+msgstr "Street View"
+
+#: Core/Admin/Dep/Settings.php:225
+msgid ""
+"enables/disables the Pegman control that lets the user activate a Street "
+"View panorama"
+msgstr ""
+"abilita/disabilita la possibilità di visualizzare il panorama street view"
+
+#: Core/Admin/Dep/Settings.php:235
+msgid "Scroll Wheel"
+msgstr "Mouse Scroll"
+
+#: Core/Admin/Dep/Settings.php:236
+msgid "enables/disables the mouse scroll whell zoom"
+msgstr ""
+"abilita/disabilita la possibilità di zoommare la mappa con lo scroll del "
+"mouse"
+
+#: Core/Admin/Dep/Settings.php:247
+msgid "Map Style"
+msgstr "Stile Mappa"
+
+#: Core/Admin/Dep/Settings.php:252
+msgid "Style"
+msgstr "Stile"
+
+#: Core/Admin/Dep/Settings.php:253
+msgid ""
+"Choose your style from  <a href=\"https://snazzymaps.com/\" target=\"_blank"
+"\">snazzymaps.com</a>"
+msgstr ""
+"Scegli dal sito <a href=\"https://snazzymaps.com/\" target=\"_blank"
+"\">snazzymaps.com</a>"
+
+#: Core/Admin/Dep/Settings.php:260 Core/Admin/Dep/Settings.php:404
+#: Core/Admin/Dep/Settings.php:424 Core/CustomPost/Lib/Utility.php:458
+msgid "Radius"
+msgstr "Raggio"
+
+#: Core/Admin/Dep/Settings.php:265 Core/Admin/Dep/Settings.php:306
+msgid "Stroke Color"
+msgstr "Colore Linea"
+
+#: Core/Admin/Dep/Settings.php:272 Core/Admin/Dep/Settings.php:313
+msgid "Stroke Opacity"
+msgstr "Opacità Linea"
+
+#: Core/Admin/Dep/Settings.php:279 Core/Admin/Dep/Settings.php:320
+msgid "Stroke Weight"
+msgstr "Spessore Linea"
+
+#: Core/Admin/Dep/Settings.php:286
+msgid "Fill Color"
+msgstr "Colore Riempimento"
+
+#: Core/Admin/Dep/Settings.php:293
+msgid "Fill Opacity"
+msgstr "Opacità Riempimento"
+
+#: Core/Admin/Dep/Settings.php:301
+msgid "Directions Setting"
+msgstr "Impostazioni Direzioni"
+
+#: Core/Admin/Dep/Settings.php:327
+msgid "Directions Panel"
+msgstr "Pannello Direzioni"
+
+#: Core/Admin/Dep/Settings.php:328
+msgid ""
+"Show the directions render inside the directions panel to the right of the "
+"map."
+msgstr "Mostra le direzioni nel pannello alla destra della mappa"
+
+#: Core/Admin/Dep/Settings.php:332 Core/Admin/Dep/Settings.php:349
+#: Core/Admin/Dep/Settings.php:393 Core/Admin/Dep/Settings.php:470
+msgid "Yes"
+msgstr "Si"
+
+#: Core/Admin/Dep/Settings.php:339
+msgid "Cluster Icons"
+msgstr "Icone Cluster"
+
+#: Core/Admin/Dep/Settings.php:344
+msgid "Cluster Option"
+msgstr "Opzioni Cluster"
+
+#: Core/Admin/Dep/Settings.php:345
+msgid "Enable or Disable Cluster Function"
+msgstr "Abilita o Disabilita la funzione Cluster"
+
+#: Core/Admin/Dep/Settings.php:362
+msgid "Small Icon"
+msgstr "Icona Piccola"
+
+#: Core/Admin/Dep/Settings.php:368
+msgid "Medium Icon"
+msgstr "Icona Media"
+
+#: Core/Admin/Dep/Settings.php:374
+msgid "Large Icon"
+msgstr "Icona Grande"
+
+#: Core/Admin/Dep/Settings.php:383
+msgid "Top Bar Filters"
+msgstr "Filtri Top Bar"
+
+#: Core/Admin/Dep/Settings.php:388
+msgid "Show / Hide Tot Stores Found"
+msgstr "Mostra / Nascondi gli store totali"
+
+#: Core/Admin/Dep/Settings.php:389
+msgid "Show / Hide Tot Stores Found on top bar"
+msgstr "Mostra / Nascondi gli store totali dalla top bar"
+
+#: Core/Admin/Dep/Settings.php:399
+msgid "Filters"
+msgstr "Filtri"
+
+#: Core/Admin/Dep/Settings.php:403 Core/Admin/Dep/Settings.php:417
+#: Core/Admin/Dep/Settings.php:438 Core/CustomPost/Lib/Utility.php:437
+msgid "Type"
+msgstr "Tipologia"
+
+#: Core/Admin/Dep/Settings.php:405 Core/Admin/Dep/Settings.php:431
+#: Core/CustomPost/Lib/Utility.php:479
+msgid "List"
+msgstr "Lista"
+
+#: Core/Admin/Dep/Settings.php:406 Core/Admin/Metabox/Geolocation.php:121
+#: Core/CustomPost/Lib/Utility.php:485 Core/CustomPost/Lib/Utility.php:487
+msgid "Search"
+msgstr "Cerca"
+
+#: Core/Admin/Dep/Settings.php:412
+msgid "Filters Label Name"
+msgstr "Nome etichetta filtro"
+
+#: Core/Admin/Dep/Settings.php:418
+msgid "Choose a name for Type Label (default: Type)"
+msgstr "Scegli un nome etichetta per la tipologia (default: Tipologia)"
+
+#: Core/Admin/Dep/Settings.php:425
+msgid "Choose a name for Radius Label (default: Radius)"
+msgstr "Scegli un nome etichetta per il raggio (default: Raggio)"
+
+#: Core/Admin/Dep/Settings.php:432
+msgid "Choose a name for List Label (default: List)"
+msgstr "Scegli un nome etichetta per la lista (default: Lista)"
+
+#: Core/Admin/Dep/Settings.php:439
+msgid "Choose a name for Search Label (default: Search)"
+msgstr "Scegli un nome etichetta per la ricerca (default: Cerca)"
+
+#: Core/Admin/Dep/Settings.php:446
+msgid "Google Map Script"
+msgstr "Script GoogleMap"
+
+#: Core/Admin/Dep/Settings.php:451
+msgid "Custom Language Code"
+msgstr "Codice Lingua Personalizzato"
+
+#: Core/Admin/Dep/Settings.php:452
+msgid ""
+"Choose your language code <a href=\"https://developers.google.com/maps/"
+"faq#languagesupport\" target=\"_blank\">Here</a>"
+msgstr ""
+"Scegli il tuo codice <a href=\"https://developers.google.com/maps/"
+"faq#languagesupport\" target=\"_blank\">Qui</a>"
+
+#: Core/Admin/Dep/Settings.php:458
+msgid "Google Maps API KEY"
+msgstr "Google Maps API KEY"
+
+#: Core/Admin/Dep/Settings.php:459
+msgid ""
+"<a href=\"https://developers.google.com/maps/documentation/javascript/get-"
+"api-key#get-an-api-key\" target=\"_blank\">Get an API key </a>"
+msgstr ""
+"<a href=\"https://developers.google.com/maps/documentation/javascript/get-"
+"api-key#get-an-api-key\" target=\"_blank\">Ottieni una API key </a>"
+
+#: Core/Admin/Dep/Settings.php:465
+msgid "Main Script"
+msgstr "Script Principale"
+
+#: Core/Admin/Dep/Settings.php:466
+msgid ""
+"Select No to avoid conflicts with your theme or another plugin that includes "
+"google maps script. IMPORTANT: If disabled, the places search will be "
+"disabled."
+msgstr ""
+"Seleziona No per evitare conflitti con il tuo tema o altri plugin che "
+"includono già lo script di google maps. IMPORTANTE: se disattivato, la "
+"ricerca dei posti nel backend e nel frontend non sarà attiva."
+
+#: Core/Admin/Metabox/Geolocation.php:65
+msgid "Category Tag, Latitude and Longitude are Required."
+msgstr "Categoria Tag, Latitudine e Longitudine sono obbligatorie."
+
+#: Core/Admin/Metabox/Geolocation.php:66
+msgid "Category Tag and Latitude are Required."
+msgstr "Categoria Tag e Latitudine sono obbligatorie."
+
+#: Core/Admin/Metabox/Geolocation.php:67
+msgid "Category Tag and Longitude are Required."
+msgstr "Categoria Tag e Longitudine sono obbligatorie."
+
+#: Core/Admin/Metabox/Geolocation.php:68
+msgid "Latitude and Longitude are Required."
+msgstr "Latitudine e Longitudine sono obbligatorie."
+
+#: Core/Admin/Metabox/Geolocation.php:69
+msgid "Category Tag is Required."
+msgstr "Categoria Tag obbligatoria."
+
+#: Core/Admin/Metabox/Geolocation.php:70
+msgid "Latitude is Required."
+msgstr "Latitudine obbligatoria."
+
+#: Core/Admin/Metabox/Geolocation.php:71
+msgid "Longitude is Required."
+msgstr "Longitudine obbligatoria."
+
+#: Core/Admin/Metabox/Geolocation.php:83
+msgid "Store Setting"
+msgstr "Impostazioni Negozio"
+
+#: Core/Admin/Metabox/Geolocation.php:124
+msgid "Type an address..."
+msgstr "Scrivi un indirizzo..."
+
+#: Core/Admin/Metabox/Geolocation.php:132
+msgid "Address"
+msgstr "Indirizzo"
+
+#: Core/Admin/Metabox/Geolocation.php:139
+#: Core/Admin/Metabox/Geolocation.php:140
+msgid "Street"
+msgstr "Strada"
+
+#: Core/Admin/Metabox/Geolocation.php:145
+msgid "Number"
+msgstr "Numero"
+
+#: Core/Admin/Metabox/Geolocation.php:153
+#: Core/Admin/Metabox/Geolocation.php:154
+msgid "City"
+msgstr "Comune"
+
+#: Core/Admin/Metabox/Geolocation.php:159
+#: Core/Admin/Metabox/Geolocation.php:161
+msgid "State / Province"
+msgstr "Provincia"
+
+#: Core/Admin/Metabox/Geolocation.php:168
+#: Core/Admin/Metabox/Geolocation.php:169
+msgid "Zip Code"
+msgstr "CAP"
+
+#: Core/Admin/Metabox/Geolocation.php:174
+#: Core/Admin/Metabox/Geolocation.php:175
+msgid "Country"
+msgstr "Stato"
+
+#: Core/Admin/Metabox/Geolocation.php:180
+msgid "Coordinates"
+msgstr "Coordinate"
+
+#: Core/Admin/Metabox/Geolocation.php:199
+msgid "Extra Info"
+msgstr "Informazioni Extra"
+
+#: Core/Admin/Metabox/Geolocation.php:206
+#: Core/Admin/Metabox/Geolocation.php:207
+msgid "Phone"
+msgstr "Telefono"
+
+#: Core/Admin/Metabox/Geolocation.php:212
+#: Core/Admin/Metabox/Geolocation.php:213
+msgid "Phone 2"
+msgstr "Telefono 2"
+
+#: Core/Admin/Metabox/Geolocation.php:234
+#: Core/Admin/Metabox/Geolocation.php:235
+msgid "Fax"
+msgstr "Fax"
+
+#: Core/Admin/Metabox/Geolocation.php:240
+#: Core/Admin/Metabox/Geolocation.php:241 Core/CustomPost/Lib/Utility.php:331
+msgid "Website"
+msgstr "Sito"
+
+#: Core/Admin/Start.php:93
+msgid ""
+"User Geolocation features only be accessible on \"secure origins\" (such as "
+"HTTPS). To use this feature, you should consider switching your application "
+"to a secure origin, such as HTTPS. See <a href='https://goo.gl/rStTGz' "
+"target='_blank'>https://goo.gl/rStTGz</a> for more details."
+msgstr ""
+"La geolocalizzazione è accessibile solo su server sicuri (HTTPS), per "
+"questioni di privacy. Per utilizzarla, passa ad un server sicuro. Per "
+"maggiori dettagli visita: <a href='https://goo.gl/rStTGz' "
+"target='_blank'>https://goo.gl/rStTGz</a>"
+
+#: Core/Admin/Start.php:94
+#, php-format
+msgid "<p><a href=\"%1$s\">Ok, dismiss this notice.</a></p>"
+msgstr "<p><a href=\"%1$s\">Ok, nascondi questa notizia.</a></p>"
+
+#: Core/Admin/Start.php:118
+msgid "Save all 3 settings tabs."
+msgstr "Salva tutte e 3 le tabs."
+
+#: Core/Admin/Start.php:120
+msgid "Layout Settings not saved;"
+msgstr "Impostazioni Layout non salvate;"
+
+#: Core/Admin/Start.php:121
+msgid "Map Settings not saved;"
+msgstr "Impostazioni Mappa non salvate;"
+
+#: Core/Admin/Start.php:122
+msgid "Advanced Settings not saved;"
+msgstr "Impostazioni avanzate non salvate;"
+
+#: Core/Admin/Start.php:124
+#, php-format
+msgid "<p><a href=\"%1$s\">Go to settings and save <b>all tabs</b>.</a></p>"
+msgstr ""
+"<p><a href=\"%1$s\">Vai nelle impostazioni e salva <b>tutte le schede</b>.</"
+"a></p>"
+
+#: Core/Admin/Start.php:203
+msgid "Developed by"
+msgstr "Sviluppato da"
+
+#: Core/Admin/Start.php:203
+msgid "Support"
+msgstr "Supporto"
+
+#: Core/Admin/Start.php:203
+msgid "Plugin Homepage"
+msgstr "Homepage del Plugin"
+
+#: Core/CustomPost/Dep/CustomPostLoader.php:113
+msgid "All Categories"
+msgstr "Tutte le categorie"
+
+#: Core/CustomPost/Dep/CustomPostLoader.php:145
+msgid "Image"
+msgstr "Immagine"
+
+#: Core/CustomPost/Dep/Settings.php:34
+msgid "Stores"
+msgstr "Negozi"
+
+#: Core/CustomPost/Dep/Settings.php:35
+msgid "Store"
+msgstr "Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:36
+msgid "All Stores"
+msgstr "Tutti i Negozi"
+
+#: Core/CustomPost/Dep/Settings.php:37
+msgid "Add Store"
+msgstr "Aggiungi Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:38
+msgid "Add new Store"
+msgstr "Aggiungi nuovo negozio"
+
+#: Core/CustomPost/Dep/Settings.php:39
+msgid "Edit"
+msgstr "Modifica"
+
+#: Core/CustomPost/Dep/Settings.php:40
+msgid "Edit Store"
+msgstr "Modifica Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:41
+msgid "New Store"
+msgstr "Nuovo Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:42
+msgid "View Store"
+msgstr "Vedi Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:43
+msgid "Search Store"
+msgstr "Cerca Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:44
+msgid "Nothing in database."
+msgstr "Niente nel database."
+
+#: Core/CustomPost/Dep/Settings.php:45
+msgid "Nothing in trash"
+msgstr "Niente nel cestino"
+
+#: Core/CustomPost/Dep/Settings.php:48
+msgid "New Store Custom Post"
+msgstr "Nuovo Custom Post Store"
+
+#: Core/CustomPost/Dep/Settings.php:65
+msgid "Store Categories"
+msgstr "Categorie Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:66
+msgid "Store Category"
+msgstr "Categoria Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:67
+msgid "Search Store Category"
+msgstr "Cerca Categoria Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:68
+msgid "All Store Categories"
+msgstr "Tutte le categorie Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:69
+msgid "Parent Store Category"
+msgstr "Categoria Negozio Genitore"
+
+#: Core/CustomPost/Dep/Settings.php:70
+msgid "Parent Store Category:"
+msgstr "Categoria Negozio Genitore:"
+
+#: Core/CustomPost/Dep/Settings.php:71
+msgid "Edit Store Category"
+msgstr "Modifica Categoria Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:72
+msgid "Update Store Category"
+msgstr "Aggiorna Categoria Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:73
+msgid "Add New Store Category"
+msgstr "Aggiungi nuova Categoria Negozio"
+
+#: Core/CustomPost/Dep/Settings.php:74
+msgid "Store Category Name"
+msgstr "Nome Categoria Negozio"
+
+#: Core/CustomPost/Dep/TermMeta.php:75 Core/CustomPost/Dep/TermMeta.php:109
+msgid "Image Category"
+msgstr "Immagine Categoria"
+
+#: Core/CustomPost/Dep/TermMeta.php:77 Core/CustomPost/Dep/TermMeta.php:122
+msgid "Size"
+msgstr "Dimensione"
+
+#: Core/CustomPost/Dep/TermMeta.php:80 Core/CustomPost/Dep/TermMeta.php:129
+msgid "Add Image"
+msgstr "Aggiungi immagine"
+
+#: Core/CustomPost/Dep/TermMeta.php:81 Core/CustomPost/Dep/TermMeta.php:130
+msgid "Remove Image"
+msgstr "Rimuovi Immagini"
+
+#: Core/CustomPost/Lib/Shortcodes.php:72
+msgid "Distance"
+msgstr "Distanza"
+
+#: Core/CustomPost/Lib/Shortcodes.php:73
+msgid "Duration"
+msgstr "Durata"
+
+#: Core/CustomPost/Lib/Shortcodes.php:74
+msgid "Get directions"
+msgstr "Calcola Percorso"
+
+#: Core/CustomPost/Lib/Shortcodes.php:75
+msgid "You are here"
+msgstr "﻿Sei qui:"
+
+#: Core/CustomPost/Lib/Shortcodes.php:76
+msgid "Actual Position"
+msgstr "Posizione Attuale"
+
+#: Core/CustomPost/Lib/Shortcodes.php:77
+msgid "There is a problem with Geolocation. Marker set to"
+msgstr "Ci sono problemi con la Geolocalizzazione. Marker impostato su"
+
+#: Core/CustomPost/Lib/Shortcodes.php:78
+msgid ""
+"Geolocation not supported or You have decided not to share your location. "
+"Marker set to"
+msgstr ""
+"Geolocalizzazione non supportata oppure hai deciso di non condividere la tua "
+"posizione. Marker impostato su"
+
+#: Core/CustomPost/Lib/Shortcodes.php:107
+msgid "Stores Found"
+msgstr "Negozi Trovati"
+
+#: Core/CustomPost/Lib/Shortcodes.php:125
+msgid "No stores found."
+msgstr "Nessun negozio trovato."
+
+#: Core/CustomPost/Lib/Shortcodes.php:147
+#: Core/CustomPost/Lib/Shortcodes.php:148
+msgid "Type a new start point"
+msgstr "Digita un nuovo indirizzo di partenza."
+
+#: Core/CustomPost/Lib/Utility.php:148
+msgid "Select/Unselect All"
+msgstr "Seleziona/Deseleziona Tutti"
+
+#: Core/CustomPost/Lib/Utility.php:149
+msgid "Apply Filters"
+msgstr "Applica Filtri"
+
+#: Core/CustomPost/Lib/Utility.php:336
+msgid "Far: "
+msgstr "Dista:"
+
+#: Core/CustomPost/Lib/Utility.php:470
+msgid "Remove Radius Filter"
+msgstr "Rimuovi Filtro Raggio"
+
+#: Core/CustomPost/Lib/Utility.php:487
+msgid "Search by: Title, Street, City, State or Zip Code"
+msgstr "Cerca per: Titolo, Strada, Città, Stato o CAP"
+
+#: Core/CustomPost/Lib/Utility.php:487
+msgid "Type Search..."
+msgstr "Cerca un negozio..."
+
+#: Core/CustomPost/Store.php:83
+msgid "Order"
+msgstr "Ordinamento"
+
+#~ msgid "User Marker"
+#~ msgstr "Marker Utente"
+
+#~ msgid "PNG 64 x 64 px"
+#~ msgstr "PNG 64 x 64 px"
+
+#~ msgid "Category Settings"
+#~ msgstr "Impostazioni Categoria"
+
+#~ msgid "Default Marker Icon "
+#~ msgstr "Icona Marker di default"
+
+#~ msgid ""
+#~ "Select No, to avoid conflicts with your theme or another plugin that "
+#~ "includes google maps script. IMPORTANT: If disabled, the places search "
+#~ "will be disabled."
+#~ msgstr ""
+#~ "Seleziona No, per evitare conflitti con il tuo tema o altri plugin che "
+#~ "includono già lo script di google maps. IMPORTANTE: se disattivato, la "
+#~ "ricerca dei posti nel backend e nel frontend non sarà attiva."
+
+#~ msgid "Category Tag Required."
+#~ msgstr "Categoria obbligatoria."
+
+#~ msgid ""
+#~ "Do you want enable Google Map Script? IMPORTANT: Dependency: "
+#~ "&libraries=places is required."
+#~ msgstr ""
+#~ "Vuoi attivare lo script di Google Map? IMPORTANTE: Se hai già incluso nel "
+#~ "tuo tema lo script, assicurati che la variabile &libraries=places sia "
+#~ "inclusa nel link"
+
+#~ msgid ""
+#~ "Add <code>[store_locator]</code> on a new line to the content of your "
+#~ "post or page"
+#~ msgstr ""
+#~ "Aggiungi lo shortcode <code>[store_locator]</code> in un nuovo post o "
+#~ "pagina"
+
+#~ msgid "Save current tab"
+#~ msgstr "Salva questa scheda."
+
+#~ msgid "<p><a href=\"%1$s\" class=\"button\">Save Now</a></p>"
+#~ msgstr "<p><a href=\"%1$s\" class=\"button\">Salva adesso</a></p>"
+
+#~ msgid "<p><a href=\"%1$s\">Ok, Hide Me.</a></p>"
+#~ msgstr "<p><a href=\"%1$s\">Ok, nascondimi.</a></p>"
+
+#~ msgid "PNG 32 x 32 px"
+#~ msgstr "PNG 32 x 32 px"
+
+#~ msgid "<a href=\"%1$s\">Hide Me.</a>"
+#~ msgstr "<a href=\"%1$s\">Nascondimi.</a>"
+
+#~ msgctxt "URL slug"
+#~ msgid "store"
+#~ msgstr "negozio"
+
+#~ msgid "Marker Category Image (32 x 32 px)"
+#~ msgstr "Immagine Categoria Marker (32 x 32 px)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtro"
+
+#~ msgid "Geolocation Setting"
+#~ msgstr "Impostazione Geolocalizzazione"
+
+#~ msgid "Remove"
+#~ msgstr "Rimuovi"
+
+#~ msgid "Add"
+#~ msgstr "Aggiungi"
+
+#~ msgid "Upload Image"
+#~ msgstr "Carica Immagine"
+
+#~ msgid "How to use?"
+#~ msgstr "Come usarlo?"
+
+#~ msgid ""
+#~ "Add <b style=\"color:black;\"><code>[store_locator]</code></b> on a new "
+#~ "line to the content of your post or page"
+#~ msgstr ""
+#~ "Aggiungi lo shortcode <b style=\"color:black;\"><code>[store_locator]</"
+#~ "code></b> nel tuo post o nella tua pagina"
+
+#~ msgid ""
+#~ "Add <b style=\"color:black;\">[store_locator]</b> on a new line to the "
+#~ "content of your post or page"
+#~ msgstr ""
+#~ "Aggiungi <b style=\"color:black;\">[store_locator]</b> al contenuto di un "
+#~ "post o di una pagina"
+
+#~ msgid ""
+#~ "Do you want enable Google Map Script? (https://maps.googleapis.com/maps/"
+#~ "api/js?v=3.exp&signed_in=false). Dependency: &libraries=places is "
+#~ "required."
+#~ msgstr ""
+#~ "Vuoi abilitare lo script di Google Map? (https://maps.googleapis.com/maps/"
+#~ "api/js?v=3.exp&signed_in=false). Richiesto: &libraries=places"
+
+#~ msgid "Custom Start"
+#~ msgstr "Partenza Personalizzata"
+
+#~ msgid ""
+#~ "Browser doesn't support Geolocation or You have decided not to share your "
+#~ "location. Marker set to"
+#~ msgstr ""
+#~ "Il Browser non supporta la Geolocalizzazione oppure hai deciso di non "
+#~ "comunicare la tua posizione. Marker impostato su"
+
+#~ msgid "Set a new start point"
+#~ msgstr "Imposta un punto di partenza"
+
+#~ msgid "Browser doesn't support Geolocation. Marker set to"
+#~ msgstr ""
+#~ "Il Browser in uso non supporta la Geolocalizzazione. Marker impostato su"
+
+#~ msgctxt "URL slug"
+#~ msgid "store-category"
+#~ msgstr "categoria-negozio"
+
+#~ msgid ""
+#~ "Do you want enable Google Map Script? (https://maps.googleapis.com/maps/"
+#~ "api/js?v=3.exp&signed_in=false)"
+#~ msgstr ""
+#~ "Vuoi abilitare lo script di google map? (https://maps.googleapis.com/maps/"
+#~ "api/js?v=3.exp&signed_in=false)"
+
+#~ msgid "Website (without http://)"
+#~ msgstr "Sito web (senza http://)"
+
+#~ msgctxt "Titolo"
+#~ msgid "Layout Settings"
+#~ msgstr "Impostazioni Layout"
+
+#~ msgid "Calculate directions"
+#~ msgstr "Calcola Percorso"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Immagine Pin "
+#~ msgstr "Immagine Pin"
+
+#~ msgid "New Store Database"
+#~ msgstr "Nuovo Negozio Database"
+
+#~ msgid "All"
+#~ msgstr "Tutte"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Name"
+#~ msgstr "Nome\t "
+
+#~ msgid "Date"
+#~ msgstr "Data"
+
+#~ msgid "Order by"
+#~ msgstr "Ordina per"
+
+#~ msgid "Citymaps "
+#~ msgstr "Citymaps "
+
+#~ msgid "Nearby Attractions"
+#~ msgstr "Attrazioni nelle vicinanze"
+
+#~ msgid "At %d meter"
+#~ msgid_plural "At %d meters"
+#~ msgstr[0] "A %d metri"
+#~ msgstr[1] "A %d metri"
+
+#~ msgid "Nearby Events"
+#~ msgstr "Eventi nelle vicinanze"
+
+#~ msgid "View all Events"
+#~ msgstr "Vedi tutti gli Eventi"
+
+#~ msgid "You May Also Like"
+#~ msgstr "Potrebbe piacerti anche"
+
+#~ msgid " Grid"
+#~ msgstr "Griglia"
+
+#~ msgid "Citynotes"
+#~ msgstr "Citynotes"
+
+#~ msgid "Citynote"
+#~ msgstr "Citynotes"
+
+#~ msgid "Tutti i Citynotes"
+#~ msgstr "Tutti i Citynotes"
+
+#~ msgid "Aggiungi Citynote"
+#~ msgstr "Aggiungi Citynote"
+
+#~ msgid "Nuova Citynote"
+#~ msgstr "Nuova Citynote"
+
+#~ msgid "Edita"
+#~ msgstr "Edita"
+
+#~ msgid "Edita Citynote"
+#~ msgstr "Edita Citynote"
+
+#~ msgid "Vedi Citynote"
+#~ msgstr "Vedi Citynote"
+
+#~ msgid "Cerca Citynote"
+#~ msgstr "Cerca Citynote"
+
+#~ msgid "New Citynote custom post"
+#~ msgstr "Nuovo custom post citynote"
+
+#~ msgid "Categorie Citynote"
+#~ msgstr "Categorie Citynote"
+
+#~ msgid "Categoria"
+#~ msgstr "Categoria"
+
+#~ msgid "Cerca Categorie"
+#~ msgstr "Cerca Categorie"
+
+#~ msgid "Tutte le Categorie"
+#~ msgstr "Tutte le Categorie"
+
+#~ msgid "Categoria Genitore"
+#~ msgstr "Categoria Genitore"
+
+#~ msgid "Categoria Genitore:"
+#~ msgstr "Categoria Genitore:"
+
+#~ msgid "Modifica Categoria"
+#~ msgstr "Modifica Categoria"
+
+#~ msgid "Aggiorna Categoria"
+#~ msgstr "Aggiorna Categoria"
+
+#~ msgid "Aggiungi nuova Categoria"
+#~ msgstr "Aggiungi nuova Categoria"
+
+#~ msgid "Nome Categoria"
+#~ msgstr "Nome Categoria"
+
+#~ msgctxt "URL slug"
+#~ msgid "citynote-category"
+#~ msgstr "categoria-citynote"
+
+#~ msgid "View all citynotes"
+#~ msgstr "Vedi tutti i citynotes"
+
+#~ msgid "No Citynote Found."
+#~ msgstr "Nessuna Citynote Trovata."
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Services"
+#~ msgstr "Servizi"
+
+#~ msgid "Prices"
+#~ msgstr "Prezzi"
+
+#~ msgid "On"
+#~ msgstr "Il"
+
+#~ msgid "No Events Found."
+#~ msgstr "Nessun evento trovato."
+
+#~ msgid "Events"
+#~ msgstr "Eventi"
+
+#~ msgid "Eventi"
+#~ msgstr "Eventi"
+
+#~ msgid "Evento"
+#~ msgstr "Evento"
+
+#~ msgid "Tutti gli Eventi"
+#~ msgstr "Tutti gli Eventi"
+
+#~ msgid "Aggiungi Evento"
+#~ msgstr "Aggiungi Evento"
+
+#~ msgid "Nuovo Evento"
+#~ msgstr "Nuovo Evento"
+
+#~ msgid "Edita Evento"
+#~ msgstr "Edita Evento"
+
+#~ msgid "Vedi Evento"
+#~ msgstr "Vedi Evento"
+
+#~ msgid "Cerca Evento"
+#~ msgstr "Cerca Evento"
+
+#~ msgid "New Event custom post"
+#~ msgstr "Nuovo custom post event"
+
+#~ msgid "Categorie Evento"
+#~ msgstr "Categorie Evento"
+
+#~ msgctxt "URL slug"
+#~ msgid "event-category"
+#~ msgstr "categoria-evento"
+
+#~ msgid "View"
+#~ msgstr "Vedi"
+
+#~ msgid "%s place have to see"
+#~ msgid_plural "%s places have to see"
+#~ msgstr[0] "%s posto da vedere"
+#~ msgstr[1] "%s posti da vedere"
+
+#~ msgid "Citymaps Poi No Image"
+#~ msgstr "Citymaps Poi No Image"
+
+#~ msgid "No Guides Found."
+#~ msgstr "Nessuna guida trovata."
+
+#~ msgid "Guide"
+#~ msgstr "Guida"
+
+#~ msgid "Guida"
+#~ msgstr "Guida"
+
+#~ msgid "Tutte le Guide"
+#~ msgstr "Tutte le Guide"
+
+#~ msgid "Aggiungi Guida"
+#~ msgstr "Aggiungi Guida"
+
+#~ msgid "Nuova Guida"
+#~ msgstr "Nuova Guida"
+
+#~ msgid "Edita Guida"
+#~ msgstr "Edita Guida"
+
+#~ msgid "Vedi Guida"
+#~ msgstr "Vedi Guida"
+
+#~ msgid "Cerca Guida"
+#~ msgstr "Cerca Guida"
+
+#~ msgid "New Guide custom post"
+#~ msgstr "Nuovo custom post guide"
+
+#~ msgid "Categorie Guide"
+#~ msgstr "Categorie Guide"
+
+#~ msgctxt "URL slug"
+#~ msgid "guide-category"
+#~ msgstr "categoria-guide"
+
+#~ msgid "View all guides"
+#~ msgstr "Vedi tutte le guide"
+
+#~ msgid "Show Map"
+#~ msgstr "Mostra Mappa"
+
+#~ msgid "Hide Map"
+#~ msgstr "Nascondi Mappa"
+
+#~ msgid "Details"
+#~ msgstr "Dettagli"
+
+#~ msgid "Terms"
+#~ msgstr "Condizioni"
+
+#~ msgid "Saving"
+#~ msgstr "Risparmi"
+
+#~ msgid "Book Now"
+#~ msgstr "Prenota"
+
+#~ msgid "Shop Now"
+#~ msgstr "Acquista"
+
+#~ msgid "View all promos"
+#~ msgstr "Vedi tutte le offerte"
+
+#~ msgid "No Promo Found."
+#~ msgstr "Nessuna offerta."
+
+#~ msgid "Offerte"
+#~ msgstr "Offerte"
+
+#~ msgid "Offerta"
+#~ msgstr "Offerta"
+
+#~ msgid "Tutte le Offerte"
+#~ msgstr "Tutte le Offerte"
+
+#~ msgid "Aggiungi Offerta"
+#~ msgstr "Aggiungi Offerta"
+
+#~ msgid "Aggiungi nuova Offerta"
+#~ msgstr "Aggiungi nuova Offerta"
+
+#~ msgid "Edita Offerta"
+#~ msgstr "Edita Offerta"
+
+#~ msgid "Nuova Offerta"
+#~ msgstr "Nuova Offerta"
+
+#~ msgid "Vedi Offerta"
+#~ msgstr "Vedi Offerta"
+
+#~ msgid "Cerca Offerta"
+#~ msgstr "Cerca Offerta"
+
+#~ msgid "Nuovo custom post Offerta"
+#~ msgstr "Nuovo custom post Offerta"
+
+#~ msgid "Categorie Offerte"
+#~ msgstr "Categorie Offerte"
+
+#~ msgctxt "URL slug"
+#~ msgid "promo-category"
+#~ msgstr "categoria-offerte"
+
+#~ msgid "Read more"
+#~ msgstr "Scopri"
+
+#~ msgid "Discover"
+#~ msgstr "Scopri"
+
+#~ msgid "Slides"
+#~ msgstr "Slides"
+
+#~ msgid "Slide"
+#~ msgstr "Slide"
+
+#~ msgid "Tutte le Slides"
+#~ msgstr "Tutte le Slides"
+
+#~ msgid "Aggiungi Slide"
+#~ msgstr "Aggiungi Slide"
+
+#~ msgid "Nuovo Slide"
+#~ msgstr "Nuovo Slide"
+
+#~ msgid "Edita Slide"
+#~ msgstr "Edita Slide"
+
+#~ msgid "Nuova Slide"
+#~ msgstr "Nuova Slide"
+
+#~ msgid "Vedi Slide"
+#~ msgstr "Vedi Slide"
+
+#~ msgid "Cerca Slide"
+#~ msgstr "Cerca Slide"
+
+#~ msgid "New Slider custom post"
+#~ msgstr "Nuovo custom post slider"
+
+#~ msgid "Categorie Slides"
+#~ msgstr "Categorie Slides"
+
+#~ msgctxt "URL slug"
+#~ msgid "slider-category"
+#~ msgstr "categoria-slider"
+
+#~ msgid " List"
+#~ msgstr " Lista"
+
+#~ msgid "Cuisine Type"
+#~ msgstr "Tipo di Cucina"
+
+#~ msgid "Price"
+#~ msgstr "Prezzo"
+
+#~ msgid "No Structures Found."
+#~ msgstr "Nessuna struttura trovata."
+
+#~ msgid "Strutture"
+#~ msgstr "Strutture"
+
+#~ msgid "Tutte le strutture"
+#~ msgstr "Tutte le strutture"
+
+#~ msgid "Aggiungi Struttura"
+#~ msgstr "Aggiungi Struttura"
+
+#~ msgid "Aggiungi nuova Struttura"
+#~ msgstr "Aggiungi nuova Struttura"
+
+#~ msgid "Edita Struttura"
+#~ msgstr "Edita Struttura"
+
+#~ msgid "Nuova Struttura"
+#~ msgstr "Nuova Struttura"
+
+#~ msgid "Vedi Struttura"
+#~ msgstr "Vedi Struttura"
+
+#~ msgid "Cerca Struttura"
+#~ msgstr "Cerca Struttura"
+
+#~ msgid "Nuovo custom post Struttura"
+#~ msgstr "Nuovo custom post Struttura"
+
+#~ msgid "Categorie Strutture"
+#~ msgstr "Categorie Strutture"
+
+#~ msgctxt "URL slug"
+#~ msgid "structure-category"
+#~ msgstr "categoria-strutture"
+
+#~ msgid "Tipi di Cucina"
+#~ msgstr "Tipi di Cucina"
+
+#~ msgid "Tipo di Cucina"
+#~ msgstr "Tipo di Cucina"
+
+#~ msgid "Cerca"
+#~ msgstr "Cerca"
+
+#~ msgid "Tutti i tipi di cucina"
+#~ msgstr "Tutti i tipi di cucina"
+
+#~ msgid "Aggiungi nuovo tipo di cucina"
+#~ msgstr "Aggiungi nuovo tipo di cucina"
+
+#~ msgctxt "URL slug"
+#~ msgid "structure-extra-category"
+#~ msgstr "categoria-extra-struttura"
+
+#~ msgid " Tour"
+#~ msgstr " Percorso"
+
+#~ msgid "Duration: "
+#~ msgstr "Durata: "
+
+#~ msgid "Distance: "
+#~ msgstr "Distanza: "
+
+#~ msgid "Difficulty: "
+#~ msgstr "Difficoltà: "
+
+#~ msgid "No Tours Found."
+#~ msgstr "Nessun percorso trovato."
+
+#~ msgid "View all Tours"
+#~ msgstr "Vedi tutti i Percorsi"
+
+#~ msgid "Percorsi"
+#~ msgstr "Percorsi"
+
+#~ msgid "Percorso"
+#~ msgstr "Percorso"
+
+#~ msgid "Tutti i Percorsi"
+#~ msgstr "Tutti i Percorsi"
+
+#~ msgid "Aggiungi Percorso"
+#~ msgstr "Aggiungi Percorso"
+
+#~ msgid "Nuovo Percorso"
+#~ msgstr "Nuovo Percorso"
+
+#~ msgid "Edita Percorso"
+#~ msgstr "Edita Percorso"
+
+#~ msgid "Nuova Percorso"
+#~ msgstr "Nuova Percorso"
+
+#~ msgid "Vedi Percorso"
+#~ msgstr "Vedi Percorso"
+
+#~ msgid "Cerca Percorso"
+#~ msgstr "Cerca Percorso"
+
+#~ msgid "New Tour custom post"
+#~ msgstr "Nuovo custom post Tour"
+
+#~ msgid "Categorie Percorsi"
+#~ msgstr "Categorie Percorsi"
+
+#~ msgctxt "URL slug"
+#~ msgid "tour-category"
+#~ msgstr "categoria-percorso"
+
+#~ msgid "View all"
+#~ msgstr "Vedi tutte le"
+
+#~ msgid "Results"
+#~ msgstr "Risultati"
+
+#~ msgid "Found"
+#~ msgstr "Trovata"
+
+#~ msgid "No Citynotes Found."
+#~ msgstr "Nessuna Citynote Trovata."
+
+#~ msgid "Search Citynote"
+#~ msgstr "Cerca Citynote"
+
+#~ msgid "Load more"
+#~ msgstr "Carica altro"
+
+#~ msgid "Back to"
+#~ msgstr "Torna a"
+
+#~ msgid "Meters"
+#~ msgstr "Metri"
+
+#~ msgid "No Promos Found."
+#~ msgstr "Nessuna offerta trovata"
+
+#~ msgid "Search Promo"
+#~ msgstr "Cerca Offerta"
+
+#~ msgid "Next"
+#~ msgstr "Prossimo"
+
+#~ msgid "Next post:"
+#~ msgstr "Post precedente:"
+
+#~ msgid "Previous"
+#~ msgstr "Precedente"
+
+#~ msgid "Previous post:"
+#~ msgstr "Post Precedente:"
+
+#~ msgid "Guides"
+#~ msgstr "Guide"
+
+#~ msgid "Tours"
+#~ msgstr "Percorsi"
+
+#~ msgid "Tour"
+#~ msgstr "Percorso"
+
+#~ msgid "Businesses"
+#~ msgstr "Attività"
+
+#~ msgid "Business"
+#~ msgstr "Attività"
+
+#~ msgid "Add Business"
+#~ msgstr "Aggiungi Attività"
+
+#~ msgid "Add New Business"
+#~ msgstr "Aggiungi nuova attività"
+
+#~ msgid "Edit Business"
+#~ msgstr "Modifica Attività"
+
+#~ msgid "New Business"
+#~ msgstr "Nuova Attività"
+
+#~ msgid "View Business"
+#~ msgstr "Vedi Attività"
+
+#~ msgid "Search Businesses"
+#~ msgstr "Cerca Attività"
+
+#~ msgid "No Businesses found"
+#~ msgstr "Nessuna attività trovata"
+
+#~ msgid "No Businesses found in trash"
+#~ msgstr "Nessuna attività trovata nel cestino"
+
+#~ msgid "Business Parent:"
+#~ msgstr "Attività Genitore:"
+
+#~ msgctxt "URL slug"
+#~ msgid "business"
+#~ msgstr "attivita"
+
+#~ msgid "Categories"
+#~ msgstr "Categorie"
+
+#~ msgid "Edit Category"
+#~ msgstr "Modifica Categoria"
+
+#~ msgid "View Category"
+#~ msgstr "Vedi Categoria "
+
+#~ msgid "Update Category"
+#~ msgstr "Aggiorna Categoria"
+
+#~ msgid "Add New Category"
+#~ msgstr "Aggiungi nuova Categoria"
+
+#~ msgid "New Category Name"
+#~ msgstr "Nome Nuova Categoria"
+
+#~ msgid "Category Parent"
+#~ msgstr "Categoria Genitore"
+
+#~ msgid "Category Parent:"
+#~ msgstr "Categoria Genitore:"
+
+#~ msgid "Search Category"
+#~ msgstr "Cerca Categoria"
+
+#~ msgid "Popular Category"
+#~ msgstr "Categoria Popolare"
+
+#~ msgid "Separate Category with comma"
+#~ msgstr "Separa Categoria con virgola"
+
+#~ msgid "Add or remove Category"
+#~ msgstr "Aggiungi o rimuovi Categoria"
+
+#~ msgid "Choose from most used category"
+#~ msgstr "Scegli tra le categorie più usate"
+
+#~ msgid "No Category found"
+#~ msgstr "Nessuna Categoria trovata"
+
+#~ msgctxt "URL slug"
+#~ msgid "businesses"
+#~ msgstr "attivita"
+
+#~ msgid "Business Order"
+#~ msgstr "Ordina Attività"
+
+#~ msgid "Empty List"
+#~ msgstr "Lista Vuota"

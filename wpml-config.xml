@@ -1,0 +1,13 @@
+<wpml-config>
+    <admin-texts>
+        <key name="assl_admin_layout">
+            <key name="assl_footer_text" />
+        </key>
+        <key name="assl_admin_advanced">
+            <key name="assl_map_filter_labelName_type" />
+            <key name="assl_map_filter_labelName_radius" />
+            <key name="assl_map_filter_labelName_list" />
+            <key name="assl_map_filter_labelName_search" />
+        </key>
+    </admin-texts>
+</wpml-config>

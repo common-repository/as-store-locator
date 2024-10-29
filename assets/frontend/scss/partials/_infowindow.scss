@@ -1,0 +1,32 @@
+/*
+ * Copyright (c) 2016. Developed by Alfio Salanitri | Web: www.alfiosalanitri.it | Support: dev@alfiosalanitri.it
+ */
+.assl-map-box {
+  hr {
+    margin: 15px 0;
+  }
+  .markerImage {
+    float: left;
+    margin-right: 10px;
+  }
+  .markerTextContainer {
+    font-size: 13px;
+    line-height: 17px;
+    float: left;
+  }
+  .clear {
+    clear: both;
+  }
+  .markerTitle {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .markerAddress {
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+  .markerInfo a {
+    text-decoration: underline;
+  }
+}

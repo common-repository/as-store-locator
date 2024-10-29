@@ -1,0 +1,55 @@
+/*
+ * Copyright (c) 2016. Developed by Alfio Salanitri | Web: www.alfiosalanitri.it | Support: dev@alfiosalanitri.it
+ */
+
+#assl-store-locator-container {
+  #direction-panel {
+    display: none;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background: white;
+    overflow-y: scroll;
+    font-size: 12px;
+    td,
+    .adp-directions,
+    .adp-placemark {
+      border: none !important;
+    }
+    .adp-directions {
+      width: auto !important;
+    }
+    img {
+      display: none !important;
+    }
+  }
+  #direction-close {
+    width: 40px;
+    font-size: 25px;
+    text-align: center;
+    display: none;
+    cursor: pointer;
+    z-index: 1;
+    top: 0;
+  }
+  .assl-calc-directions {
+    h5 {
+      text-transform: uppercase;
+      margin: 0!important;
+      font-size: 13px;
+    }
+    p {
+      margin: 0;
+    }
+    a {
+      font-size: 25px;
+      cursor: pointer;
+      transition: all .5s ease-in-out;
+      -moz-transition: all .5s ease-in-out;
+      -webkit-transition: all .5s ease-in-out;
+    }
+    a.active {
+      cursor: default;
+    }
+  }
+}
